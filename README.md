@@ -12,23 +12,23 @@ In real Time, we are using QR code in daily use. Some of famous application are 
 <h5> How to valiate QR Code or Barcode from image in android/iOS app.</h5>
 Below code are example for unit testing.</h5>
 
- <h3>Add maven repository to pom.xml file.</h4>
-<p>
+ <h3>Add maven repository to pom.xml file.</h3>
+<code>
 		<!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
 		<dependency3
 			<groupId>com.google.zxing</groupId>
 			<artifactId>core</artifactId>
 			<version>3.4.0</version>
 		</dependency>
-</p>
-<p>
+</code>
+<code>
 		<!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
 		<dependency>
 			<groupId>com.google.zxing</groupId>
 			<artifactId>javase</artifactId>
 			<version>3.4.0</version>
 		</dependency>
-</p>
+</code>
 
 <h3> Unit testing for QR Code write/read operation.</h3>
 <pre>
@@ -50,7 +50,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LearningPath {
-
     public static void main(String[] args) throws WriterException, IOException, NotFoundException {
         // pass the hiding information
         String qrCodeData = "prabagaran95@upi";
@@ -87,9 +86,7 @@ public class LearningPath {
         Result qrCodeResult = new MultiFormatReader().decode(bitMap, hintMap);
         return qrCodeResult.getText();
     }
-
 }
-
 </pre>
 
 
