@@ -13,25 +13,12 @@ In real Time, we are using QR code in daily use. Some of famous application are 
 
 <h3> How to valiate QR Code or Barcode from image in android/iOS app.</h3>
 
-
  <h4>Add maven repository to pom.xml file.</h4>
-<code>
-		<!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
-		<dependency>
-			<groupId>com.google.zxing</groupId>
-			<artifactId>core</artifactId>
-			<version>3.4.0</version>
-		</dependency>
-</code>
-<code>
-		<!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
-		<dependency>
-			<groupId>com.google.zxing</groupId>
-			<artifactId>javase</artifactId>
-			<version>3.4.0</version>
-		</dependency>
-</code>
-
+ <pre>
+	1. zxing-core   : https://mvnrepository.com/artifact/com.google.zxing/core
+	2. zxing-javase : https://mvnrepository.com/artifact/com.google.zxing/javase
+</pre>
+<br>
 <h3> Unit testing for QR Code write/read operation.</h3>
 <pre>
 package base;
