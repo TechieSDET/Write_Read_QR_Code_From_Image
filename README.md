@@ -1,11 +1,11 @@
 # How to read QR Code or Barcode from Images
 
-<h3>Basic Understanding of QR Code or Barcode</h3>
+<h3>Basic Understanding of QR Code/Barcode</h3>
 <p> Curious on knowing how Android Apps scan the Barcodes or QR codes from the camera?
 
 The android apps designed to scan 1D & 2D barcodes on a high level convert the data the camera into image bytes to the below library, which in-turn return the data embedded within the bar codes.
 
-Reading Barcodes / QR codes from images seems to be difficult & using the below open source libraries(ZXing - Zebra Crossing) provided by Google will make it simple for any application to include this functionality. 
+Reading Barcodes/QR codes from images seems to be difficult & using the below open source libraries(ZXing - Zebra Crossing) provided by Google will make it simple for any application to include this functionality. 
 
 Below code are example for unit testing.
 
@@ -13,7 +13,7 @@ In real Time, we are using QR code in daily use. Some of famous application are 
 
 <h3> How to valiate QR Code or Barcode from image in android/iOS app.</h3>
 
- <h4>Add maven repository to pom.xml file.</h4>
+ <h4>Add maven dependencies to pom.xml file.</h4>
  <pre>
    1. zxing-core   : <a href="https://mvnrepository.com/artifact/com.google.zxing/core">https://mvnrepository.com/artifact/com.google.zxing/core</a>
    2. zxing-javase : <a href="https://mvnrepository.com/artifact/com.google.zxing/javase">https://mvnrepository.com/artifact/com.google.zxing/javase</a>
