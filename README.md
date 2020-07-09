@@ -19,7 +19,7 @@ In real Time, we are using QR code in daily use. Some of famous application are 
 	2. zxing-javase : <a>https://mvnrepository.com/artifact/com.google.zxing/javase</a>
 </pre>
 
-<h3> Unit testing for QR Code write/read operation.</h3>
+<h3> Below code refer to QR Code/Barcode write/read operation.</h3>
 <pre>
 package base;
 
@@ -44,7 +44,7 @@ public class LearningPath {
         // pass the hiding information
         String qrCodeData = "prabagaran95@upi";
         //sample QR Code
-        String filePath = "/Users/prabagaran/Downloads/qacode.png"; 
+        String filePath = "/qacode.png"; 
         String charset = "UTF-8";
         Map<EncodeHintType, ErrorCorrectionLevel> hintMap = new HashMap<EncodeHintType, ErrorCorrectionLevel>();
         hintMap.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.L);
@@ -79,5 +79,4 @@ public class LearningPath {
 }
 </pre>
 
-
-  
+<p> Article to refer <a> https://www.quora.com/What-is-a-QR-Code-and-how-can-I-use-it-in-Paytm</a>
