@@ -15,10 +15,10 @@ In real Time, we are using QR code in daily use. Some of famous application are 
 
  <h4>Add maven repository to pom.xml file.</h4>
  <pre>
-	1. zxing-core   : https://mvnrepository.com/artifact/com.google.zxing/core
-	2. zxing-javase : https://mvnrepository.com/artifact/com.google.zxing/javase
+	1. zxing-core   : <a>https://mvnrepository.com/artifact/com.google.zxing/core</a>
+	2. zxing-javase : <a>https://mvnrepository.com/artifact/com.google.zxing/javase</a>
 </pre>
-<br>
+
 <h3> Unit testing for QR Code write/read operation.</h3>
 <pre>
 package base;
