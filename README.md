@@ -15,8 +15,8 @@ In real Time, we are using QR code in daily use. Some of famous application are 
 
  <h4>Add maven repository to pom.xml file.</h4>
  <pre>
-	1. zxing-core   : <a>https://mvnrepository.com/artifact/com.google.zxing/core</a>
-	2. zxing-javase : <a>https://mvnrepository.com/artifact/com.google.zxing/javase</a>
+   1. zxing-core   : <a href="https://mvnrepository.com/artifact/com.google.zxing/core">https://mvnrepository.com/artifact/com.google.zxing/core</a>
+   2. zxing-javase : <a href="https://mvnrepository.com/artifact/com.google.zxing/javase">https://mvnrepository.com/artifact/com.google.zxing/javase</a>
 </pre>
 
 <h3> Below code refer to QR Code/Barcode write/read operation.</h3>
@@ -79,4 +79,4 @@ public class LearningPath {
 }
 </pre>
 
-<p> Article to refer <a> https://www.quora.com/What-is-a-QR-Code-and-how-can-I-use-it-in-Paytm</a>
+<p> Article to refer <a href="https://www.quora.com/What-is-a-QR-Code-and-how-can-I-use-it-in-Paytm"> https://www.quora.com/What-is-a-QR-Code-and-how-can-I-use-it-in-Paytm</a>
