@@ -20,14 +20,15 @@ Below code are example for unit testing.</h5>
 			<artifactId>core</artifactId>
 			<version>3.4.0</version>
 		</dependency>
-
+</textarea>
+<textarea>
 		<!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
 		<dependency>
 			<groupId>com.google.zxing</groupId>
 			<artifactId>javase</artifactId>
 			<version>3.4.0</version>
 		</dependency>
-
 </textarea>
+
 
   
