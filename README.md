@@ -13,8 +13,7 @@ In real Time, we are using QR code in daily use. Some of famous application are 
 Below code are example for unit testing.</h5>
 
  <h3>Add maven repository to pom.xml file.</h4>
-
-<pre>
+<textarea>
 		<!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
 		<dependency3
 			<groupId>com.google.zxing</groupId>
@@ -29,7 +28,6 @@ Below code are example for unit testing.</h5>
 			<version>3.4.0</version>
 		</dependency>
 
-</pre>
-
+</textarea>
 
   
